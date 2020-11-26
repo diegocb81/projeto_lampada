@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+header {
+    padding: 20px 2% 35px 2%;
+    height: 150px;
+    background-color: green;
+}
+
+header div.logo {
+    float: none;
+}
+
+.logo img {
+    width: 200px;
+    height: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;    
+}
+
+.box {
+    width: 100%;
+    background-color: blue;
+}
+
+.box lampada-acesa {
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box lampada-apagada {
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
