@@ -7,25 +7,21 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-    <div class="container">
-        <div class="logo">
-            <img src="img/logo_dast.png" alt="Logo DAST">
-        </div>
+    <div>
+        <h1 id="projetoLampada">Projeto Lâmpada</h1>
+        <img src="img/lampada_apagada.jpg" alt="Lâmpada apagada" id="lampada"/>
+        <input type="button" class="botao1" value="Acender" onclick="acesa()"/>
+        <input type="button" class="botao2" value="Apagar" onclick="apagada()"/>
     </div>
-</header>
-
-    <div class="box">
-        <div class="lampada-acesa">
-<button onclick="document.getElementById('imagem').src='img/lampada_acesa.png'">Acenda a lâmpada</button>
-        </div>
-
-        <div class="lampada-apagada">
-<img id="imagem" src="img/lampada_apagada.png" alt="Lâmpada apagada">
-        </div>
-
-<button onclick="document.getElementById('imagem').src='img/lampada_apagada.png'">Apague a lâmpada</button>
-    </div>
-     
+   
+<script>
+    function acesa() {
+        document.getElementById("lampada").src="img/lampada_acesa.jpg";
+    }
+    function apagada() {
+        document.getElementById("lampada").src="img/lampada_apagada.jpg";
+    }
+      
+</script>
 </body>
 </html>
